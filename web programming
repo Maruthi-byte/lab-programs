@@ -1,0 +1,320 @@
+LAB 1: Display a List of Items
+xml
+<html>
+<head>
+<title>Lists</title>
+</head>
+<body bgcolor="Green" text="Pink">
+<ol>
+  <li>Animals
+    <ul type="disc">
+      <li>Lion</li>
+      <li>Tiger</li>
+    </ul>
+  </li>
+  <li>Birds
+    <ul type="square">
+      <li>Peacock</li>
+      <li>Parrot</li>
+      <li>Dove</li>
+    </ul>
+  </li>
+  <li>Flowers
+    <ol type="1">
+      <li>Lotus</li>
+      <li>Jasmine</li>
+      <li>Rose</li>
+    </ol>
+  </li>
+  <li>Colors
+    <ol type="a">
+      <li>Red</li>
+      <li>Yellow</li>
+      <li>Blue</li>
+    </ol>
+  </li>
+</ol>
+</body>
+</html>
+------------------------------------------------------------------------------------
+
+LAB 2: Time Table
+<html>
+<head>
+<title>Time Table</title>
+</head>
+<body>
+<table border="1" bordercolor="blue" align="center" bgcolor="aqua">
+<caption><b><u>3rd MPCS Time Table</u></b></caption>
+<tr>
+  <th>Day or Period</th>
+  <th>1<sup>st</sup><br>8:15 to 9:05am</th>
+  <th>2<sup>nd</sup><br>9:05 to 9:50am</th>
+  <th>3<sup>rd</sup><br>9:50 to 10:45am</th>
+  <th rowspan="7">BREAK<br>10:45 to 11:00am</th>
+  <th>4<sup>th</sup><br>11:00 to 11:50am</th>
+  <th>5<sup>th</sup><br>11:50 to 12:40pm</th>
+  <th>6<sup>th</sup><br>12:40 to 1:30pm</th>
+</tr>
+<tr><th>Mon</th><td>C7</td><td>C8</td><td>M7</td><td>M8</td><td>P7</td><td>P8</td></tr>
+<tr><th>Tue</th><td>C7</td><td>C8</td><td>M7</td><td>M8</td><td>P7</td><td>P8</td></tr>
+<tr><th>Wed</th><td>C7</td><td>C8</td><td>M7</td><td>M8</td><td>P7</td><td>P8</td></tr>
+<tr><th>Thur</th><td>C7</td><td>C8</td><td>M7</td><td>M8</td><td>P7</td><td>P8</td></tr>
+<tr><th>Fri</th><td>C7</td><td>C8</td><td>M7</td><td>M8</td><td>P7</td><td>P8</td></tr>
+<tr><th>Sat</th><td>C7</td><td>C8</td><td>M7</td><td>M8</td><td>P7</td><td>P8</td></tr>
+</table>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------
+LAB 3: Frames
+Main Page (Frameset)
+<html>
+<head>
+<title>Frames</title>
+</head>
+<frameset cols="50%,50%">
+  <frame src="contents.html" name="leftframe">
+  <frame src="information.html" name="rightframe">
+</frameset>
+</html>
+
+contents.html
+<html>
+<head>
+<title>Contents</title>
+</head>
+<body bgcolor="aqua">
+<h1>Contents</h1>
+<a href="Birds.html" target="rightframe">BIRDS</a><br>
+<a href="Animals.html" target="rightframe">ANIMALS</a><br>
+<a href="Flowers.html" target="rightframe">FLOWERS</a><br>
+<a href="Colors.html" target="rightframe">COLORS</a><br>
+</body>
+</html>
+
+information.html
+<html>
+<head><title>Information</title></head>
+<body bgcolor="pink">
+<p>Select any one option from the left frame</p>
+</body>
+</html>
+-------------------------------------------------------------------------------
+forms
+
+<html>
+<head>
+<title>FORM</title>
+</head>
+<body>
+<form>
+Name: <input type="text" size="30"><br>
+Father Name: <input type="text" size="30"><br>
+Mother Name: <input type="text" size="30"><br>
+Gender:
+<input type="radio" name="Gender" value="male">MALE
+<input type="radio" name="Gender" value="female">FEMALE<br>
+Date of birth: <input type="text" size="30"><br>
+Nationality: <input type="text" size="30"><br>
+
+Qualification:
+<input type="checkbox" value="MCA">MCA
+<input type="checkbox" value="MSC Maths">MSC Maths
+<input type="checkbox" value="MSC Computers">MSC Computers<br>
+<input type="checkbox" value="MSC Electronics">MSC Electronics
+<input type="checkbox" value="MSC Statistics">MSC Statistics
+<input type="checkbox" value="MSC Physics">MSC Physics<br>
+
+Email id: <input type="text" size="30"><br>
+Address: <textarea rows="4" cols="40"></textarea><br>
+Mobile no: <input type="text" size="30"><br>
+Languages known: <input type="text" size="30"><br>
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+</form>
+</body>
+</html>
+-------------------------------------------------------------------------------------
+
+<html>
+<head>
+<title>Leave letter</title>
+</head>
+<body bgcolor="aqua">
+<h1 align="center"><u>Leave letter</u></h1>
+<h3 align="right">Place: Anantapur,<br>Date: 28-06-2021</h3>
+<h3>To<br>
+The principal,<br>
+S.V. Degree College,<br>
+Anantapuramu.</h3>
+<font size="6" color="#c71585">
+Respected Sir,</font>
+<font size="6">
+<p>I am Rishi studying in III B.Sc M.S.Cs final year in your college. I am suffering from fever from last night. So, I am unable to attend the classes for two days i.e. 28-06-2021 to 29-06-2021. So, please grant me leave for two days.</p>
+<p align="center">Thanking you Sir,</p>
+<p align="right">
+Yours Obediently<br>
+Name: XXX<br>
+Roll No: YYY
+</p>
+</font>
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------
+h1 {
+  border: groove;
+  background-color: #ffface;
+  text-align: center;
+  color: green;
+}
+h2 {
+  border: ridge;
+  background-color: red;
+  text-align: left;
+  color: green;
+}
+
+
+p {
+  border: dotted;
+  background-color: pink;
+  text-align: left;
+  color: white;
+}
+
+
+<html>
+<head>
+<title>External Style Sheet</title>
+<link rel="stylesheet" type="text/css" href="h1.css">
+<style>
+@import url("p.css");
+</style>
+</head>
+<body>
+<h1>C</h1>
+<h2>C is structured programming language</h2>
+<h1>Java</h1>
+<h2>Java is object-oriented programming language</h2>
+<p class="abc">Java is object-oriented programming language</p>
+</body>
+</html>
+----------------------------------------------------------------------------------
+
+<html>
+<head>
+<title>INLINE & INTERNAL</title>
+<style>
+h1 {
+  border: groove;
+  background-color: #ffface;
+  text-align: center;
+  color: green;
+}
+</style>
+</head>
+<body>
+<h1>AMARAVATHI</h1>
+<p style="border: dotted; background-color: black; text-align: left; color: white;">
+  AMARAVATHI IS THE CAPITAL OF AP
+</p>
+</body>
+</html>
+---------------------------------------------------------------------------------------
+<html>
+<head>
+<title>Layers Example</title>
+<style>
+.e {
+  width: 500px;
+  background-color: red;
+  border: 30px solid;
+}
+</style>
+</head>
+<body bgcolor="aqua">
+<div class="e">
+  THIS IS the text with width as <span style="font-weight:bold">500 pixels</span>
+</div>
+
+<div style="z-index:5; width:1000px; background-color:red; border:30px double #aaffcc;">
+  THIS IS the text with width as 1000 pixels
+</div>
+
+<div style="width:100px; height:100px; background-color:red; overflow:scroll; border:30px double #aaffcc;">
+  THIS IS the text with width as 100 pixels and height as 100 pixels
+</div>
+</body>
+</html>
+-----------------------------------------------------------------------------------------------------------
+<html>
+<head>
+<title>Recursion</title>
+</head>
+<body>
+<script>
+var n, f;
+n = parseInt(prompt("Enter a number", "0"));
+
+function fact(n) {
+  if (n == 0)
+    return 1;
+  else
+    return n * fact(n - 1);
+}
+
+f = fact(n);
+document.writeln("Factorial of given number = " + f);
+</script>
+</body>
+</html>
+-----------------------------------------------------------------
+<html>
+<head>
+<title>Swap Two Numbers</title>
+</head>
+<body>
+<script>
+var a, b;
+a = parseInt(prompt("Enter a value", "0"));
+b = parseInt(prompt("Enter b value", "0"));
+
+document.writeln("Before Swapping<br>");
+document.writeln("a = " + a + "<br>");
+document.writeln("b = " + b + "<br>");
+
+a = a + b;
+b = a - b;
+a = a - b;
+
+document.writeln("<br>After Swapping<br>");
+document.writeln("a = " + a + "<br>");
+document.writeln("b = " + b);
+</script>
+</body>
+</html>
+--------------------------------------------------
+<html>
+<head>
+<title>Prime Number Check</title>
+</head>
+<body>
+<script>
+var n, i, count = 0;
+n = parseInt(prompt("Enter a number", "0"));
+
+for(i = 1; i <= n; i++) {
+  if (n % i == 0)
+    count++;
+}
+
+if (count == 2)
+  document.writeln("Given number is prime");
+else
+  document.writeln("Given number is not prime");
+</script>
+</body>
+</html>
+
+
+
